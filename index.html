@@ -15,12 +15,21 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      height: 100vh;
+      min-height: 100vh;
+    }
+    .logo {
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+    .logo img {
+      max-width: 200px;
+      height: auto;
+      border-radius: 12px;
     }
     h1 {
       font-size: 2.5em;
-      margin-bottom: 0.5em;
+      margin: 0 0 20px;
+      font-weight: bold;
     }
     .links {
       display: flex;
@@ -28,6 +37,7 @@
       gap: 15px;
       width: 90%;
       max-width: 400px;
+      margin-bottom: 40px;
     }
     .link-btn {
       background-color: #1f1f1f;
@@ -46,11 +56,14 @@
   </style>
 </head>
 <body>
+  <div class="logo">
+    <img src="bwb.png" alt="BWB Logo">
+  </div>
   <h1>Bet With The Best</h1>
   <div class="links">
-    <a class="link-btn" href="https://youtube.com/YOUR_YOUTUBE" target="_blank">🎥 Watch on YouTube</a>
-    <a class="link-btn" href="https://x.com/YOUR_X_HANDLE" target="_blank">🐦 Follow us on X</a>
-    <a class="link-btn" href="https://whop.com/YOUR_WHOP" target="_blank">💬 Join our Discord</a>
+    <a class="link-btn" href="https://www.youtube.com/@BetWithTheBestYoutube" target="_blank">🎥 Check out our YouTube</a>
+    <a class="link-btn" href="https://whop.com/bet-with-the-best-ufc/?a=betwiththebest" target="_blank">💬 Get access to our Discord</a>
+    <a class="link-btn" href="https://x.com/BetWithTheBest_" target="_blank">🐦 Follow us on X</a>
   </div>
 </body>
 </html>
